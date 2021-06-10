@@ -39,5 +39,5 @@ six==1.15.0
     #   python-dateutil
 threadpoolctl==2.1.0
     # via scikit-learn
-tqdm==4.27.0
+tqdm<=4.27.0
     # via -r requirements.in

@@ -4,30 +4,10 @@
 #
 #    pip-compile --output-file=requirements.txt requirements.in
 #
-better-exceptions==0.3.3
-    # via -r requirements.in
-blessings==1.7
-    # via curtsies
-bpython==0.21
-    # via -r requirements.in
-certifi==2021.5.30
-    # via requests
-chardet==4.0.0
-    # via requests
-curtsies==0.3.5
-    # via bpython
-cwcwidth==0.1.4
-    # via
-    #   bpython
-    #   curtsies
 cycler==0.10.0
     # via -r requirements.in
 deepspeech==0.9.3
     # via -r requirements.in
-greenlet==1.1.0
-    # via bpython
-idna==2.10
-    # via requests
 joblib==0.16.0
     # via
     #   -r requirements.in
@@ -42,16 +22,10 @@ numpy==1.20.3
     #   scipy
 pydub==0.23.1
     # via -r requirements.in
-pygments==2.9.0
-    # via bpython
 pyparsing==2.4.7
     # via -r requirements.in
 python-dateutil==2.8.1
     # via -r requirements.in
-pyxdg==0.27
-    # via bpython
-requests==2.25.1
-    # via bpython
 scikit-learn==0.24.2
     # via -r requirements.in
 scipy==1.6.3
@@ -67,5 +41,3 @@ threadpoolctl==2.1.0
     # via scikit-learn
 tqdm==4.44.1
     # via -r requirements.in
-urllib3==1.26.5
-    # via requests

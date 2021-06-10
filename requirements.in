@@ -10,5 +10,3 @@ scikit-learn
 scipy
 six
 tqdm>4.20
-better_exceptions 
-bpython

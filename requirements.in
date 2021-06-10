@@ -9,6 +9,6 @@ python-dateutil
 scikit-learn
 scipy
 six
-tqdm
+tqdm>4.20
 better_exceptions 
 bpython

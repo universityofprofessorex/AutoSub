@@ -9,4 +9,4 @@ python-dateutil
 scikit-learn
 scipy
 six
-tqdm>4.20
+tqdm<=4.27

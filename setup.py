@@ -83,14 +83,18 @@ setup(
     author_email="abhiroop.talasila@gmail.com",
     description="CLI application to generate subtitle file (.srt) for any video file using using STT",
     long_description=README,
+    long_description_content_type="text/markdown",
     install_requires=INSTALL_PACKAGES,
+    packages=find_packages(),
     long_description_content_type="text/markdown",
     url="https://github.com/universityofprofessorex/AutoSub",
     keywords=['speech-to-text','deepspeech','machine-learning'],
+    include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.5',
+    platforms="ALL",
 )

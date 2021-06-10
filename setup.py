@@ -10,7 +10,7 @@ with open("README.md", "r") as fh:
 setup(
     name="AutoSub",
     packages="autosub",
-    version="0.0.1",
+    version="0.0.2",
     author="Abhiroop Talasila",
     author_email="abhiroop.talasila@gmail.com",
     description="CLI application to generate subtitle file (.srt) for any video file using using STT",

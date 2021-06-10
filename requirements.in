@@ -1,0 +1,14 @@
+cycler
+numpy
+deepspeech
+joblib
+kiwisolver
+pydub
+pyparsing
+python-dateutil
+scikit-learn
+scipy
+six
+tqdm
+better_exceptions 
+bpython
